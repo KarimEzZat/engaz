@@ -1,0 +1,100 @@
+@media (max-width: 1480px) {
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .banner_part .banner_text {
+    height: 650px;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .main_menu_iner {
+    padding: 12px 0px;
+  }
+  .main_menu .main-menu-item .nav-item {
+    padding: 10px 15px !important;
+  }
+  .main_menu .main-menu-item .nav-item a {
+    padding: 8px 15px !important;
+  }
+  .navbar-light .navbar-toggler {
+    border-color: transparent;
+  }
+  .dropdown .dropdown-menu {
+    transform: scale(1, 0);
+    display: none;
+  }
+  .dropdown:hover .dropdown-menu {
+    transform: scale(1);
+    display: block;
+  }
+  .navbar-collapse {
+    z-index: 9999 !important;
+    position: absolute;
+    left: 0;
+    top: 65px;
+    width: 100%;
+    background-color: #fff;
+  }
+  .navbar-light .navbar-toggler {
+    border-color: transparent;
+  }
+
+  .banner_part .banner_text h1 {
+    font-size: 55px;
+  }
+  .banner_part .banner_text h1 + div {
+    font-size: 30px;
+  }
+    .breadcrumb .breadcrumb_iner .breadcrumb_iner_item h1 {
+        font-size: 40px;
+    }
+}
+/*============================================================
+        Tablet (Portrait) Design for a width of 768px
+==============================================================*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .main_menu .navbar-brand img {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 769px) {
+}
+
+/*============================================================
+        Mobile (Portrait) Design for a width of 320px
+==============================================================*/
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+@media (max-width: 576px) {
+  .sub_menu .sub_menu_right_content {
+    text-align: center;
+  }
+  .sub_menu .sub_menu_social_icon {
+    justify-content: center !important;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .gallery-area .carousel-caption h3 {
+    font-size: 20px;
+  }
+  .gallery-area .carousel-caption p {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+}
+
+@media only screen and (max-width: 479px) {
+}
